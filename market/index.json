@@ -72,17 +72,17 @@
           "ui"
         ],
         "sortKeys": {
-          "published": 1790000000
+          "published": 1792276306
         }
       },
       "versions": [
         {
           "version": "1.0.0",
-          "publishTimestamp": 1790000000,
+          "publishTimestamp": 1792276306,
           "source": {
             "type": "git",
             "url": "https://github.com/hectoruy/dsh-locale-es",
-            "commit": "0000000000000000000000000000000000000000"
+            "commit": "243fb841c3fb2343ad74c100fa374e395a6fa594"
           },
           "engines": {
             "dsh": "^0.2.1-rc.2"
