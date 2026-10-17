@@ -1,7 +1,7 @@
 {
   "name": "dsh-locale-es",
-  "version": "1.0.0",
-  "description": "Español (es) para la interfaz web de DeepSeek Harness: 2.901 cadenas en 63 espacios de nombres del cliente, más la preferencia de idioma.",
+  "version": "1.1.0",
+  "description": "Español (es) para la interfaz web de DeepSeek Harness: 2.901 cadenas en 63 espacios de nombres del cliente, preferencia de idioma y rótulos del menú de ventana.",
   "icon": "./icon.svg",
   "type": "module",
   "main": "lib/index.js",
