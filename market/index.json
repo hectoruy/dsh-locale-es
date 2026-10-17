@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Héctor's DSH plugins",
+    "es": "Plugins de Héctor para DSH"
+  },
+  "description": {
+    "en": "Spanish language pack and other DeepSeek Harness add-ons.",
+    "es": "Paquete de idioma español y otros complementos para DeepSeek Harness."
+  },
+  "metadata": {
+    "categories": {
+      "locale": {
+        "title": {
+          "en": "Localization",
+          "es": "Localización"
+        }
+      }
+    },
+    "labels": {
+      "spanish": {
+        "title": {
+          "en": "Spanish",
+          "es": "Español"
+        }
+      },
+      "ui": {
+        "title": {
+          "en": "Interface",
+          "es": "Interfaz"
+        }
+      }
+    },
+    "sortKeys": {
+      "published": {
+        "title": {
+          "en": "Published",
+          "es": "Publicado"
+        },
+        "order": "desc"
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-locale-es",
+      "title": {
+        "en": "Spanish (es) interface pack",
+        "es": "Español (es) para la interfaz"
+      },
+      "description": {
+        "en": "Translates the DeepSeek Harness web UI into Spanish (2,901 strings across 63 client namespaces) and selects Spanish as the UI language.",
+        "es": "Traduce la interfaz web de DeepSeek Harness al español (2.901 cadenas en 63 espacios de nombres del cliente) y fija el español como idioma de la interfaz."
+      },
+      "icon": "icon.svg",
+      "author": "Héctor Freire",
+      "homepage": "https://github.com/hectoruy/dsh-locale-es",
+      "repository": {
+        "url": "https://github.com/hectoruy/dsh-locale-es"
+      },
+      "metadata": {
+        "category": "locale",
+        "keywords": [
+          "español",
+          "spanish",
+          "locale",
+          "i18n",
+          "traducción"
+        ],
+        "labels": [
+          "spanish",
+          "ui"
+        ],
+        "sortKeys": {
+          "published": 1790000000
+        }
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1790000000,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/hectoruy/dsh-locale-es",
+            "commit": "0000000000000000000000000000000000000000"
+          },
+          "engines": {
+            "dsh": "^0.2.1-rc.2"
+          }
+        }
+      ]
+    }
+  ]
+}

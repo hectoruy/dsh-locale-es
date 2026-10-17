@@ -1,0 +1,12 @@
+# DeepSeek Harness — paquete de idioma español (es)
+#
+# Este bundle aporta su plugin de cliente y fija el español como idioma de la
+# interfaz. Una elección explícita del usuario en Ajustes → General → Idioma
+# gana, porque la capa de parche del perfil se aplica después de esta capa.
+- insert:
+    - id: locale-es
+      name: "dsh-locale-es"
+- id: locale
+  name: "@deepseek-ai/dsh-client-locale"
+  config:
+    preference: es

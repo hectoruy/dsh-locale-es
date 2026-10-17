@@ -1,0 +1,54 @@
+{
+  "name": "dsh-locale-es",
+  "version": "1.0.0",
+  "description": "Español (es) para la interfaz web de DeepSeek Harness: 2.901 cadenas en 63 espacios de nombres del cliente, más la preferencia de idioma.",
+  "icon": "./icon.svg",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "icon.svg",
+    "locale/*.json",
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "author": "Héctor Freire",
+  "homepage": "https://github.com/hectoruy/dsh-locale-es#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hectoruy/dsh-locale-es.git"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness",
+    "locale",
+    "spanish",
+    "espanol",
+    "i18n"
+  ],
+  "engines": {
+    "node": ">=20",
+    "dsh": "^0.2.1-rc.2"
+  },
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  }
+}
